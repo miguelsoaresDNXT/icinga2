@@ -72,4 +72,5 @@ services:
       # If you have previously used the container's internal DB use:
       #- ./data/icinga/lib/mysql:/var/lib/mysql
     environment:
-      - MYSQL_ROOT_PASSWORD='123456'
+      - MYSQL_ROOT_PASSWORD=123456
+
