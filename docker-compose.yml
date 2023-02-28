@@ -73,4 +73,3 @@ services:
       #- ./data/icinga/lib/mysql:/var/lib/mysql
     environment:
       - MYSQL_ROOT_PASSWORD='123456'
-      - MYSQL_ROOT_HOST=mysql
